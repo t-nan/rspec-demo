@@ -22,4 +22,3 @@ class Hero
   end
 
 end
-hero=Hero.new 'mike'
