@@ -15,11 +15,11 @@ class Car
   # как далеко сможем проехать
 
   def range
-    0
+    @fuel*MILES_PER_GALLON
   end
 
 end
 
-car=Car.new
-car.add_fuel 10
-puts "Range is #{car.range}"  # сможем проехать ... миль
+#car=Car.new
+#car.add_fuel 10
+#puts "Range is #{car.range}"  # сможем проехать ... миль
